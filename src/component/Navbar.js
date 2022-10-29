@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
@@ -7,38 +8,38 @@ const Navbar = () => {
             <div className="row">
               <div className="col-sm-4">
                 <div className="logo pull-left">
-                  <a href="index.html">
+                  <Link to="/">
                     <img src="assest/images/home/logo-2.png" alt="" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-sm-8">
                 <div className="shop-menu pull-right">
                   <ul className="nav navbar-nav">
                     <li>
-                      <a href="404.html">
+                      <Link to="/404">
                         <i className="fa fa-user"></i> الحساب
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="404.html">
+                      <Link to="/404">
                         <i className="fa fa-star"></i> المفضلة
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="404.html">
+                      <Link ro="/404">
                         <i className="fa fa-crosshairs"></i> الدفع
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="404.html">
+                      <Link  to="/404">
                         <i className="fa fa-shopping-cart"></i> عربة التسوق
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="login.html">
+                      <Link to="/login">
                         <i className="fa fa-lock"></i> تسجيل الدخول
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -67,18 +68,18 @@ const Navbar = () => {
                 <div className="mainmenu pull-left">
                   <ul className="nav navbar-nav collapse navbar-collapse">
                     <li>
-                      <a href="index.html" className="active">
+                      <Link to="/" className="active">
                         الرئيسية
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="shop.html">المنتجات</a>
+                      <Link to="/prodect">المنتجات</Link>
                     </li>
                     <li>
-                      <a href="404.html">تواصل معنا</a>
+                      <Link to="/404">تواصل معنا</Link>
                     </li>
                     <li>
-                      <a href="control-panel.html">لوحة التحكم</a>
+                      <Link to="/controlpanel">لوحة التحكم</Link>
                     </li>
                   </ul>
                 </div>
