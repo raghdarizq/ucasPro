@@ -11,42 +11,42 @@ const ProdectList =()=>{
 							
 							<div className="panel panel-default">
 								<div className="panel-heading">
-									<h4 className="panel-title"><a href="accessories.html">اكسسوريز</a></h4>
+									<h4 className="panel-title"><a href="/accessories.html">اكسسوريز</a></h4>
 								</div>
 							</div>
 							<div className="panel panel-default">
 								<div className="panel-heading">
-									<h4 className="panel-title"><a href="attention.html">عنايه</a></h4>
+									<h4 className="panel-title"><a href="/attention.html">عنايه</a></h4>
 								</div>
 							</div>
 							<div className="panel panel-default">
 								<div className="panel-heading">
-									<h4 className="panel-title"><a href="makeup.html">مكياج</a></h4>
+									<h4 className="panel-title"><a href="/makeup.html">مكياج</a></h4>
 								</div>
 							</div>
 							<div className="panel panel-default">
 								<div className="panel-heading">
-									<h4 className="panel-title"><a href="bags.html">شنط</a></h4>
+									<h4 className="panel-title"><a href="/bags.html">شنط</a></h4>
 								</div>
 							</div>
 							<div className="panel panel-default">
 								<div className="panel-heading">
-									<h4 className="panel-title"><a href="perfumes.html">عطور</a></h4>
+									<h4 className="panel-title"><a href="/perfumes.html">عطور</a></h4>
 								</div>
 							</div>
 							<div className="panel panel-default">
 								<div className="panel-heading">
-									<h4 className="panel-title"><a href="devices.html">اجهزه</a></h4>
+									<h4 className="panel-title"><a href="/devices.html">اجهزه</a></h4>
 								</div>
 							</div>
 							<div className="panel panel-default">
 								<div className="panel-heading">
-									<h4 className="panel-title"><a href="women.html">ملابس نساء</a></h4>
+									<h4 className="panel-title"><a href="/women.html">ملابس نساء</a></h4>
 								</div>
 							</div>
 							<div className="panel panel-default">
 								<div className="panel-heading">
-									<h4 className="panel-title"><a href="men.html">رجال</a></h4>
+									<h4 className="panel-title"><a href="/men.html">رجال</a></h4>
 								</div>
 							</div>
 							
@@ -67,19 +67,19 @@ const ProdectList =()=>{
 											<img src="assest/images/products/1.jpeg" alt="" />
 											<h2>$56</h2>
 											<p>اسم المنتج</p>
-											<a href="#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
+											<a href="/#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
 										</div>
 										<div className="product-overlay">
 											<div className="overlay-content">
 												<h2>$56</h2>
 												<p>اسم المنتج</p>
-												<a href="#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
+												<a href="/#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
 											</div>
 										</div>
 								</div>
 								<div className="choose">
 									<ul className="nav nav-pills nav-justified">
-										<li><a href="#"><i className="fa fa-plus-square"></i>أضف إلى المفضلة</a></li>
+										<li><a href="/#"><i className="fa fa-plus-square"></i>أضف إلى المفضلة</a></li>
 									</ul>
 								</div>
 								
@@ -92,19 +92,19 @@ const ProdectList =()=>{
 										<img src="assest/images/products/2.jpeg" alt="" />
 										<h2>$56</h2>
 										<p>اسم المنتج</p>
-										<a href="#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
+										<a href="/#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
 									</div>
 									<div className="product-overlay">
 										<div className="overlay-content">
 											<h2>$56</h2>
 											<p>اسم المنتج</p>
-											<a href="#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
+											<a href="/#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
 										</div>
 									</div>
 								</div>
 								<div className="choose">
 									<ul className="nav nav-pills nav-justified">
-										<li><a href="#"><i className="fa fa-plus-square"></i>أضف إلى المفضلة</a></li>
+										<li><a href="/#"><i className="fa fa-plus-square"></i>أضف إلى المفضلة</a></li>
 									</ul>
 								</div>
 								
@@ -117,19 +117,19 @@ const ProdectList =()=>{
 										<img src="assest/images/products/3.jpeg" alt="" />
 										<h2>$56</h2>
 										<p>اسم المنتج</p>
-										<a href="#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
+										<a href="/#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
 									</div>
 									<div className="product-overlay">
 										<div className="overlay-content">
 											<h2>$56</h2>
 											<p>اسم المنتج</p>
-											<a href="#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
+											<a href="/#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
 										</div>
 									</div>
 								</div>
 								<div className="choose">
 									<ul className="nav nav-pills nav-justified">
-										<li><a href="#"><i className="fa fa-plus-square"></i>أضف إلى المفضلة</a></li>
+										<li><a href="/#"><i className="fa fa-plus-square"></i>أضف إلى المفضلة</a></li>
 									</ul>
 								</div>
 								
@@ -142,20 +142,20 @@ const ProdectList =()=>{
 										<img src="assest/images/products/4.jpeg" alt="" />
 										<h2>$56</h2>
 										<p>اسم المنتج</p>
-										<a href="#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
+										<a href="/#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
 									</div>
 									<div className="product-overlay">
 										<div className="overlay-content">
 											<h2>$56</h2>
 											<p>اسم المنتج</p>
-											<a href="#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
+											<a href="/#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
 										</div>
 									</div>
 									<img src="assest/images/home/new.png" className="new" alt="" />
 								</div>
 								<div className="choose">
 									<ul className="nav nav-pills nav-justified">
-										<li><a href="#"><i className="fa fa-plus-square"></i>أضف إلى المفضلة</a></li>
+										<li><a href="/#"><i className="fa fa-plus-square"></i>أضف إلى المفضلة</a></li>
 									</ul>
 								</div>
 								
@@ -168,20 +168,20 @@ const ProdectList =()=>{
 										<img src="assest/images/products/5.jpeg" alt="" />
 										<h2>$56</h2>
 										<p>اسم المنتج</p>
-										<a href="#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
+										<a href="/#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
 									</div>
 									<div className="product-overlay">
 										<div className="overlay-content">
 											<h2>$56</h2>
 											<p>اسم المنتج</p>
-											<a href="#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
+											<a href="/#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
 										</div>
 									</div>
 									<img src="assest/images/home/sale.png" className="new" alt="" />
 								</div>
 								<div className="choose">
 									<ul className="nav nav-pills nav-justified">
-										<li><a href="#"><i className="fa fa-plus-square"></i>أضف إلى المفضلة</a></li>
+										<li><a href="/#"><i className="fa fa-plus-square"></i>أضف إلى المفضلة</a></li>
 									</ul>
 								</div>
 								
@@ -194,19 +194,19 @@ const ProdectList =()=>{
 										<img src="assest/images/products/6.jpeg" alt="" />
 										<h2>$56</h2>
 										<p>اسم المنتج</p>
-										<a href="#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
+										<a href="/#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
 									</div>
 									<div className="product-overlay">
 										<div className="overlay-content">
 											<h2>$56</h2>
 											<p>اسم المنتج</p>
-											<a href="#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
+											<a href="/#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
 										</div>
 									</div>
 								</div>
 								<div className="choose">
 									<ul className="nav nav-pills nav-justified">
-										<li><a href="#"><i className="fa fa-plus-square"></i>أضف إلى المفضلة</a></li>
+										<li><a href="/#"><i className="fa fa-plus-square"></i>أضف إلى المفضلة</a></li>
 									</ul>
 								</div>
 								
@@ -220,19 +220,19 @@ const ProdectList =()=>{
 											<img src="assest/images/products/7.jpeg" alt="" />
 											<h2>$56</h2>
 											<p>اسم المنتج</p>
-											<a href="#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
+											<a href="/#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
 										</div>
 										<div className="product-overlay">
 											<div className="overlay-content">
 												<h2>$56</h2>
 												<p>اسم المنتج</p>
-												<a href="#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
+												<a href="/#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
 											</div>
 										</div>
 								</div>
 								<div className="choose">
 									<ul className="nav nav-pills nav-justified">
-										<li><a href="#"><i className="fa fa-plus-square"></i>أضف إلى المفضلة</a></li>
+										<li><a href="/#"><i className="fa fa-plus-square"></i>أضف إلى المفضلة</a></li>
 									</ul>
 								</div>
 								
@@ -245,19 +245,19 @@ const ProdectList =()=>{
 										<img src="assest/images/products/8.jpeg" alt="" />
 										<h2>$56</h2>
 										<p>اسم المنتج</p>
-										<a href="#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
+										<a href="/#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
 									</div>
 									<div className="product-overlay">
 										<div className="overlay-content">
 											<h2>$56</h2>
 											<p>اسم المنتج</p>
-											<a href="#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
+											<a href="/#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
 										</div>
 									</div>
 								</div>
 								<div className="choose">
 									<ul className="nav nav-pills nav-justified">
-										<li><a href="#"><i className="fa fa-plus-square"></i>أضف إلى المفضلة</a></li>
+										<li><a href="/#"><i className="fa fa-plus-square"></i>أضف إلى المفضلة</a></li>
 									</ul>
 								</div>
 								
@@ -270,19 +270,19 @@ const ProdectList =()=>{
 										<img src="assest/images/products/3.jpeg" alt="" />
 										<h2>$56</h2>
 										<p>اسم المنتج</p>
-										<a href="#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
+										<a href="/#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
 									</div>
 									<div className="product-overlay">
 										<div className="overlay-content">
 											<h2>$56</h2>
 											<p>اسم المنتج</p>
-											<a href="#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
+											<a href="/#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
 										</div>
 									</div>
 								</div>
 								<div className="choose">
 									<ul className="nav nav-pills nav-justified">
-										<li><a href="#"><i className="fa fa-plus-square"></i>أضف إلى المفضلة</a></li>
+										<li><a href="/#"><i className="fa fa-plus-square"></i>أضف إلى المفضلة</a></li>
 									</ul>
 								</div>
 								
@@ -295,20 +295,20 @@ const ProdectList =()=>{
 										<img src="assest/images/products/4.jpeg" alt="" />
 										<h2>$56</h2>
 										<p>اسم المنتج</p>
-										<a href="#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
+										<a href="/#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
 									</div>
 									<div className="product-overlay">
 										<div className="overlay-content">
 											<h2>$56</h2>
 											<p>اسم المنتج</p>
-											<a href="#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
+											<a href="/#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
 										</div>
 									</div>
 									<img src="assest/images/home/new.png" className="new" alt="" />
 								</div>
 								<div className="choose">
 									<ul className="nav nav-pills nav-justified">
-										<li><a href="#"><i className="fa fa-plus-square"></i>أضف إلى المفضلة</a></li>
+										<li><a href="/#"><i className="fa fa-plus-square"></i>أضف إلى المفضلة</a></li>
 									</ul>
 								</div>
 								
@@ -321,20 +321,20 @@ const ProdectList =()=>{
 										<img src="assest/images/products/5.jpeg" alt="" />
 										<h2>$56</h2>
 										<p>اسم المنتج</p>
-										<a href="#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
+										<a href="/#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
 									</div>
 									<div className="product-overlay">
 										<div className="overlay-content">
 											<h2>$56</h2>
 											<p>اسم المنتج</p>
-											<a href="#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
+											<a href="/#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
 										</div>
 									</div>
 									<img src="assest/images/home/sale.png" className="new" alt="" />
 								</div>
 								<div className="choose">
 									<ul className="nav nav-pills nav-justified">
-										<li><a href="#"><i className="fa fa-plus-square"></i>أضف إلى المفضلة</a></li>
+										<li><a href="/#"><i className="fa fa-plus-square"></i>أضف إلى المفضلة</a></li>
 									</ul>
 								</div>
 								
@@ -347,19 +347,19 @@ const ProdectList =()=>{
 										<img src="assest/images/products/6.jpeg" alt="" />
 										<h2>$56</h2>
 										<p>اسم المنتج</p>
-										<a href="#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
+										<a href="/#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
 									</div>
 									<div className="product-overlay">
 										<div className="overlay-content">
 											<h2>$56</h2>
 											<p>اسم المنتج</p>
-											<a href="#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
+											<a href="/#" className="btn btn-default add-to-cart"><i className="fa fa-shopping-cart"></i>أضف إلى السلة</a>
 										</div>
 									</div>
 								</div>
 								<div className="choose">
 									<ul className="nav nav-pills nav-justified">
-										<li><a href="#"><i className="fa fa-plus-square"></i>أضف إلى المفضلة</a></li>
+										<li><a href="/#"><i className="fa fa-plus-square"></i>أضف إلى المفضلة</a></li>
 									</ul>
 								</div>
 								

@@ -1,4 +1,3 @@
-import Navbar from "./Navbar";
 
 const Slider = ()=>{
 return(
@@ -42,10 +41,10 @@ return(
                         
                     </div>
                     
-                    <a href="#slider-carousel" className="left control-carousel hidden-xs" data-slide="prev">
+                    <a href="/#slider-carousel" className="left control-carousel hidden-xs" data-slide="prev">
                         <i className="fa fa-angle-right"></i>
                     </a>
-                    <a href="#slider-carousel" className="right control-carousel hidden-xs" data-slide="next">
+                    <a href="/#slider-carousel" className="right control-carousel hidden-xs" data-slide="next">
                         <i className="fa fa-angle-left"></i>
                     </a>
                 </div>

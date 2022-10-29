@@ -1,79 +1,119 @@
+import { useState } from "react";
+import axios from "axios";
+import {useNavigate } from "react-router-dom";
+
 const AddNew = () => {
+    const [title,setTitle]=useState();
+    const [price,setPrice]=useState();
+    const [category,setCategory]=useState();
+    const [image,setImage]=useState();
+    const [description,setDescription]=useState();
+    let navigate = useNavigate()
+console.log(setImage)
+    const formSubmit = (event) => {
+        event.preventDefault();
+        axios
+          .post("http://localhost:9000/products", {
+            title,
+            price,
+            category,
+            description,
+            image,
+          })
+          .then((data) => {
+            console.log(data);
+          });    
+          navigate("/controlpanel")
+    
+    }
+    const TitleHandler = (event) => {
+        setTitle(event.target.value);
+      };
+      const PriceHandler = (event) => {
+        setPrice(event.target.value);
+      };
+      const CategoryHandler = (event) => {
+        setCategory(event.target.value);
+      };
+      const DescriptionHandler = (event) => {
+        setDescription(event.target.value);
+      };
+
   return (
     <>
-      <div id="contact-page" class="container">
-        <div class="bg">
-          <div class="row">
-            <div class="col-sm-12">
-              <h2 class="title text-center">إضافة منتج جديد</h2>
+      <div id="contact-page" className="container" >
+        <div className="bg">
+          <div className="row">
+            <div className="col-sm-12">
+              <h2 className="title text-center">إضافة منتج جديد</h2>
             </div>
           </div>
-          <div class="row">
-            <div class="col-sm-8">
-              <div class="contact-form">
+          <div className="row">
+            <div className="col-sm-8">
+              <div className="contact-form">
                 <div
-                  class="status alert alert-success"
+                  className="status alert alert-success"
                 ></div>
-                <form
+                <form onSubmit={formSubmit}
                   id="main-contact-form"
-                  class="contact-form row"
+                  className="contact-form row"
                   name="contact-form"
                   method="post"
                 >
-                  <div class="form-group col-md-6">
+                  <div className="form-group col-md-6">
                     <input
                       type="text"
                       name="name"
-                      class="form-control"
+                      className="form-control"
                       required="required"
                       placeholder="اسم المنتج"
+                      onChange={TitleHandler}
+
                     />
                   </div>
-                  <div class="form-group col-md-6">
+                  <div className="form-group col-md-6">
                     <input
-                      type="email"
-                      name="email"
-                      class="form-control"
+                      type="number"
+                      name="price"
+                      className="form-control"
                       required="required"
                       placeholder="السعر"
+                      onChange={PriceHandler}
                     />
                   </div>
-                  <div class="form-group col-md-6">
-                    <select name="subject" class="form-control">
-                      <option>اكسسوريز</option>
-                      <option>عنايه</option>
-                      <option>مكياج</option>
-                      <option>شنط</option>
-                      <option>عطور</option>
-                      <option>اجهزه</option>
-                      <option>ملابس نساء</option>
-                      <option>رجال</option>
+                  <div className="form-group col-md-6">
+                    <select name="subject" className="form-control" onChange={CategoryHandler}>
+                      <option value="men's clothing">men's clothing</option>
+                      <option value="jewelery">jewelery</option>
+                      <option value="electronics">electronics</option>
+                      <option value="women's clothing">women's clothing</option>
                     </select>
                   </div>
-                  <div class="form-group col-md-6">
+                  <div className="form-group col-md-6">
                     <input
                       type="file"
                       name="image"
-                      class="form-control"
+                      className="form-control"
                       required="required"
                       placeholder="اختر صورة المنتج"
                     />
                   </div>
-                  <div class="form-group col-md-12">
+                  <div className="form-group col-md-12">
                     <textarea
                       name="message"
                       id="message"
                       required="required"
-                      class="form-control"
+                      className="form-control"
                       rows="8"
                       placeholder="وصف المنتج أو نبذة عنه"
+                      onChange={DescriptionHandler}
                     ></textarea>
                   </div>
-                  <div class="form-group col-md-12">
+                  <div className="form-group col-md-12">
                     <input
                       type="submit"
                       name="submit"
-                      class="btn btn-primary pull-right"
+                      className="btn btn-primary pull-right"
                       value="اضافة"
                     />
                   </div>

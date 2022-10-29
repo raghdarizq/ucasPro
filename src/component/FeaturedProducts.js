@@ -15,56 +15,56 @@ const FeaturedProducts = () => {
                   <div className="panel panel-default">
                     <div className="panel-heading">
                       <h4 className="panel-title">
-                        <a href="accessories.html">اكسسوريز</a>
+                        <a href="/accessories.html">اكسسوريز</a>
                       </h4>
                     </div>
                   </div>
                   <div className="panel panel-default">
                     <div className="panel-heading">
                       <h4 className="panel-title">
-                        <a href="attention.html">عنايه</a>
+                        <a href="/attention.html">عنايه</a>
                       </h4>
                     </div>
                   </div>
                   <div className="panel panel-default">
                     <div className="panel-heading">
                       <h4 className="panel-title">
-                        <a href="makeup.html">مكياج</a>
+                        <a href="/makeup.html">مكياج</a>
                       </h4>
                     </div>
                   </div>
                   <div className="panel panel-default">
                     <div className="panel-heading">
                       <h4 className="panel-title">
-                        <a href="bags.html">شنط</a>
+                        <a href="/bags.html">شنط</a>
                       </h4>
                     </div>
                   </div>
                   <div className="panel panel-default">
                     <div className="panel-heading">
                       <h4 className="panel-title">
-                        <a href="perfumes.html">عطور</a>
+                        <a href="/perfumes.html">عطور</a>
                       </h4>
                     </div>
                   </div>
                   <div className="panel panel-default">
                     <div className="panel-heading">
                       <h4 className="panel-title">
-                        <a href="devices.html">اجهزه</a>
+                        <a href="/devices.html">اجهزه</a>
                       </h4>
                     </div>
                   </div>
                   <div className="panel panel-default">
                     <div className="panel-heading">
                       <h4 className="panel-title">
-                        <a href="women.html">ملابس نساء</a>
+                        <a href="/women.html">ملابس نساء</a>
                       </h4>
                     </div>
                   </div>
                   <div className="panel panel-default">
                     <div className="panel-heading">
                       <h4 className="panel-title">
-                        <a href="men.html">رجال</a>
+                        <a href="/men.html">رجال</a>
                       </h4>
                     </div>
                   </div>

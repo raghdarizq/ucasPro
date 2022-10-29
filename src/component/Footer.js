@@ -22,19 +22,19 @@ const Footer = () => {
                   <h2>روابط</h2>
                   <ul className="nav nav-pills nav-stacked">
                     <li>
-                      <a href="#">الرئيسية</a>
+                      <a href="/#">الرئيسية</a>
                     </li>
                     <li>
-                      <a href="#">الحساب</a>
+                      <a href="/#">الحساب</a>
                     </li>
                     <li>
-                      <a href="#">المفضلة</a>
+                      <a href="/#">المفضلة</a>
                     </li>
                     <li>
-                      <a href="#">عربة التسوق</a>
+                      <a href="/#">عربة التسوق</a>
                     </li>
                     <li>
-                      <a href="#">التسجيل</a>
+                      <a href="/#">التسجيل</a>
                     </li>
                   </ul>
                 </div>
@@ -45,19 +45,19 @@ const Footer = () => {
                   <h2>تسوق سريع</h2>
                   <ul className="nav nav-pills nav-stacked">
                     <li>
-                      <a href="#">تي شيرت</a>
+                      <a href="/#">تي شيرت</a>
                     </li>
                     <li>
-                      <a href="#">رجالي</a>
+                      <a href="/#">رجالي</a>
                     </li>
                     <li>
-                      <a href="#">حريمي</a>
+                      <a href="/#">حريمي</a>
                     </li>
                     <li>
-                      <a href="#">بطاقات الهدايا</a>
+                      <a href="/#">بطاقات الهدايا</a>
                     </li>
                     <li>
-                      <a href="#">أحذية</a>
+                      <a href="/#">أحذية</a>
                     </li>
                   </ul>
                 </div>
@@ -68,13 +68,13 @@ const Footer = () => {
                   <h2>عن المتجر</h2>
                   <ul className="nav nav-pills nav-stacked">
                     <li>
-                      <a href="#">معلومات الشركة</a>
+                      <a href="/#">معلومات الشركة</a>
                     </li>
                     <li>
-                      <a href="#">الوظائف</a>
+                      <a href="/#">الوظائف</a>
                     </li>
                     <li>
-                      <a href="#">موقع المتجر</a>
+                      <a href="/#">موقع المتجر</a>
                     </li>
                   </ul>
                 </div>

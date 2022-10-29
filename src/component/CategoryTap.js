@@ -5,27 +5,27 @@ const CategoryTap = () => {
         <div className="col-sm-12">
           <ul className="nav nav-tabs">
             <li className="active">
-              <a href="#tshirt" data-toggle="tab">
+              <a href="/tshirt" data-toggle="tab">s
                 ملابس نساء
               </a>
             </li>
             <li>
-              <a href="#blazers" data-toggle="tab">
+              <a href="/blazers" data-toggle="tab">
                 رجال
               </a>
             </li>
             <li>
-              <a href="#sunglass" data-toggle="tab">
+              <a href="/sunglass" data-toggle="tab">
                 عطور
               </a>
             </li>
             <li>
-              <a href="#kids" data-toggle="tab">
+              <a href="/kids" data-toggle="tab">
                 شنط
               </a>
             </li>
             <li>
-              <a href="#poloshirt" data-toggle="tab">
+              <a href="/poloshirt" data-toggle="tab">
                 اكسسوريز
               </a>
             </li>
@@ -40,7 +40,7 @@ const CategoryTap = () => {
                     <img src="assest/images/products/7.jpeg" alt="" />
                     <h2>$56</h2>
                     <p>اسم المنتج</p>
-                    <a href="#" className="btn btn-default add-to-cart">
+                    <a href="/" className="btn btn-default add-to-cart">
                       <i className="fa fa-shopping-cart"></i>أضف إلى السلة
                     </a>
                   </div>
@@ -54,7 +54,7 @@ const CategoryTap = () => {
                     <img src="assest/images/products/7.jpeg" alt="" />
                     <h2>$56</h2>
                     <p>اسم المنتج</p>
-                    <a href="#" className="btn btn-default add-to-cart">
+                    <a href="/" className="btn btn-default add-to-cart">
                       <i className="fa fa-shopping-cart"></i>أضف إلى السلة
                     </a>
                   </div>
@@ -68,7 +68,7 @@ const CategoryTap = () => {
                     <img src="assest/images/products/7.jpeg" alt="" />
                     <h2>$56</h2>
                     <p>اسم المنتج</p>
-                    <a href="#" className="btn btn-default add-to-cart">
+                    <a href="/" className="btn btn-default add-to-cart">
                       <i className="fa fa-shopping-cart"></i>أضف إلى السلة
                     </a>
                   </div>
@@ -82,7 +82,7 @@ const CategoryTap = () => {
                     <img src="assest/images/products/7.jpeg" alt="" />
                     <h2>$56</h2>
                     <p>اسم المنتج</p>
-                    <a href="#" className="btn btn-default add-to-cart">
+                    <a href="/" className="btn btn-default add-to-cart">
                       <i className="fa fa-shopping-cart"></i>أضف إلى السلة
                     </a>
                   </div>
@@ -99,7 +99,7 @@ const CategoryTap = () => {
                     <img src="assest/images/products/8.jpeg" alt="" />
                     <h2>$56</h2>
                     <p>اسم المنتج</p>
-                    <a href="#" className="btn btn-default add-to-cart">
+                    <a href="/" className="btn btn-default add-to-cart">
                       <i className="fa fa-shopping-cart"></i>أضف إلى السلة
                     </a>
                   </div>
@@ -113,7 +113,7 @@ const CategoryTap = () => {
                     <img src="assest/images/products/8.jpeg" alt="" />
                     <h2>$56</h2>
                     <p>اسم المنتج</p>
-                    <a href="#" className="btn btn-default add-to-cart">
+                    <a href="/" className="btn btn-default add-to-cart">
                       <i className="fa fa-shopping-cart"></i>أضف إلى السلة
                     </a>
                   </div>
@@ -127,7 +127,7 @@ const CategoryTap = () => {
                     <img src="assest/images/products/8.jpeg" alt="" />
                     <h2>$56</h2>
                     <p>اسم المنتج</p>
-                    <a href="#" className="btn btn-default add-to-cart">
+                    <a href="/" className="btn btn-default add-to-cart">
                       <i className="fa fa-shopping-cart"></i>أضف إلى السلة
                     </a>
                   </div>
@@ -141,7 +141,7 @@ const CategoryTap = () => {
                     <img src="assest/images/products/8.jpeg" alt="" />
                     <h2>$56</h2>
                     <p>اسم المنتج</p>
-                    <a href="#" className="btn btn-default add-to-cart">
+                    <a href="/" className="btn btn-default add-to-cart">
                       <i className="fa fa-shopping-cart"></i>أضف إلى السلة
                     </a>
                   </div>
@@ -158,7 +158,7 @@ const CategoryTap = () => {
                     <img src="assest/images/products/5.jpeg" alt="" />
                     <h2>$56</h2>
                     <p>اسم المنتج</p>
-                    <a href="#" className="btn btn-default add-to-cart">
+                    <a href="/" className="btn btn-default add-to-cart">
                       <i className="fa fa-shopping-cart"></i>أضف إلى السلة
                     </a>
                   </div>
@@ -172,7 +172,7 @@ const CategoryTap = () => {
                     <img src="assest/images/products/5.jpeg" alt="" />
                     <h2>$56</h2>
                     <p>اسم المنتج</p>
-                    <a href="#" className="btn btn-default add-to-cart">
+                    <a href="/" className="btn btn-default add-to-cart">
                       <i className="fa fa-shopping-cart"></i>أضف إلى السلة
                     </a>
                   </div>
@@ -186,7 +186,7 @@ const CategoryTap = () => {
                     <img src="assest/images/products/5.jpeg" alt="" />
                     <h2>$56</h2>
                     <p>اسم المنتج</p>
-                    <a href="#" className="btn btn-default add-to-cart">
+                    <a href="/" className="btn btn-default add-to-cart">
                       <i className="fa fa-shopping-cart"></i>أضف إلى السلة
                     </a>
                   </div>
@@ -200,7 +200,7 @@ const CategoryTap = () => {
                     <img src="assest/images/products/5.jpeg" alt="" />
                     <h2>$56</h2>
                     <p>اسم المنتج</p>
-                    <a href="#" className="btn btn-default add-to-cart">
+                    <a href="/" className="btn btn-default add-to-cart">
                       <i className="fa fa-shopping-cart"></i>أضف إلى السلة
                     </a>
                   </div>
@@ -217,7 +217,7 @@ const CategoryTap = () => {
                     <img src="assest/images/products/4.jpeg" alt="" />
                     <h2>$56</h2>
                     <p>اسم المنتج</p>
-                    <a href="#" className="btn btn-default add-to-cart">
+                    <a href="/" className="btn btn-default add-to-cart">
                       <i className="fa fa-shopping-cart"></i>أضف إلى السلة
                     </a>
                   </div>
@@ -231,7 +231,7 @@ const CategoryTap = () => {
                     <img src="assest/images/products/4.jpeg" alt="" />
                     <h2>$56</h2>
                     <p>اسم المنتج</p>
-                    <a href="#" className="btn btn-default add-to-cart">
+                    <a href="/" className="btn btn-default add-to-cart">
                       <i className="fa fa-shopping-cart"></i>أضف إلى السلة
                     </a>
                   </div>
@@ -245,7 +245,7 @@ const CategoryTap = () => {
                     <img src="assest/images/products/4.jpeg" alt="" />
                     <h2>$56</h2>
                     <p>اسم المنتج</p>
-                    <a href="#" className="btn btn-default add-to-cart">
+                    <a href="/" className="btn btn-default add-to-cart">
                       <i className="fa fa-shopping-cart"></i>أضف إلى السلة
                     </a>
                   </div>
@@ -259,7 +259,7 @@ const CategoryTap = () => {
                     <img src="assest/images/products/4.jpeg" alt="" />
                     <h2>$56</h2>
                     <p>اسم المنتج</p>
-                    <a href="#" className="btn btn-default add-to-cart">
+                    <a href="/" className="btn btn-default add-to-cart">
                       <i className="fa fa-shopping-cart"></i>أضف إلى السلة
                     </a>
                   </div>
@@ -276,7 +276,7 @@ const CategoryTap = () => {
                     <img src="assest/images/products/1.jpeg" alt="" />
                     <h2>$56</h2>
                     <p>اسم المنتج</p>
-                    <a href="#" className="btn btn-default add-to-cart">
+                    <a href="/" className="btn btn-default add-to-cart">
                       <i className="fa fa-shopping-cart"></i>أضف إلى السلة
                     </a>
                   </div>
@@ -290,7 +290,7 @@ const CategoryTap = () => {
                     <img src="assest/images/products/1.jpeg" alt="" />
                     <h2>$56</h2>
                     <p>اسم المنتج</p>
-                    <a href="#" className="btn btn-default add-to-cart">
+                    <a href="/" className="btn btn-default add-to-cart">
                       <i className="fa fa-shopping-cart"></i>أضف إلى السلة
                     </a>
                   </div>
@@ -304,7 +304,7 @@ const CategoryTap = () => {
                     <img src="assest/images/products/1.jpeg" alt="" />
                     <h2>$56</h2>
                     <p>اسم المنتج</p>
-                    <a href="#" className="btn btn-default add-to-cart">
+                    <a href="/" className="btn btn-default add-to-cart">
                       <i className="fa fa-shopping-cart"></i>أضف إلى السلة
                     </a>
                   </div>
@@ -318,7 +318,7 @@ const CategoryTap = () => {
                     <img src="assest/images/products/1.jpeg" alt="" />
                     <h2>$56</h2>
                     <p>اسم المنتج</p>
-                    <a href="#" className="btn btn-default add-to-cart">
+                    <a href="/" className="btn btn-default add-to-cart">
                       <i className="fa fa-shopping-cart"></i>أضف إلى السلة
                     </a>
                   </div>

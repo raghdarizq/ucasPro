@@ -20,14 +20,14 @@ const Recommended = () => {
             <div className="item active">
               {product.map((pro) =>
                 pro.test === true ? (
-                  <div className="col-sm-4">
+                  <div className="col-sm-4" key={pro.id}>
                     <div className="product-image-wrapper">
                       <div className="single-products">
                         <div className="productinfo text-center">
                           <img src={pro.image} alt={pro.title} />
                           <h2>${pro.price}</h2>
                           <p>{pro.title}</p>
-                          <a href="#" className="btn btn-default add-to-cart">
+                          <a href="//#" className="btn btn-default add-to-cart">
                             <i className="fa fa-shopping-cart"></i>أضف إلى السلة
                           </a>
                         </div>
