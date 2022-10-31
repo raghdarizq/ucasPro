@@ -8,6 +8,7 @@ import ProdectList from "./component/ProdectList";
 import ControlPanel from "./component/ControlPanel";
 import Register from "./component/Register";
 import AddNew from "./AddNew";
+import ProductDetails from "./component/ProductDetails";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/prodect" element={<ProdectList />} />
         <Route path="/controlpanel" element={<ControlPanel />} />
         <Route path="/add" element={<AddNew />} />
+        <Route path="/productdetails/:productId" element={<ProductDetails />} />
       </Routes>
       <Footer />
     </>
